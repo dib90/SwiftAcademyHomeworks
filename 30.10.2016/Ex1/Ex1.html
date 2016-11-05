@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercises 1</title>
+	<script src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+	<style>
+		p {
+			padding: 15px;
+			background: #ff5c33;
+		}
+	</style>
+	<script>
+		$(document).ready(function(){
+			$('#hide-btn').click(function(){
+			$('p'&&'.odd').hide();
+		});
+			$('.show-btn').click(function(){
+        	$('p'&&'.odd').show();
+   		});
+	});		
+	</script>
+</head>
+<body>
+<button id="hide-btn" class="hide-btn">Hide the odd one</button>
+<button class="show-btn">Shwo them</button>
+	<p class="odd">One</p>
+	<p>Two</p>
+	<p class="odd">Three</p>
+	<p>Four</p>
+	<p class="odd">Five</p>
+	<p>Six</p>
+	<p class="odd">Seven</p>
+	<p>Eight</p>
+	<p class="odd">Nine</p>
+	<p>Ten</p>
+</body>
+</html>

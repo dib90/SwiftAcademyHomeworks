@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercises 5</title>
+	<link rel="stylesheet" href="style/main.css">
+</head>
+<body class="forma-center" style="background-color: skyblue"><h1>Registration<sup><i>form</i></sup></h1>
+<div><sub> All fields marked with an asterisk (<b style="color: red">*</b>) are required!</sub></div><br></br>
+<form action="action_page.php">
+<label for="un">Username<sup style="color: red">*</sup>:</label><br>
+<input type="Username" name="user" id="un" class="forma-center" title="max symbols 8" maxlength="8">
+<br>
+<label for="pass">Password<sup style="color: red">*</sup>:</label><br>
+ <input type="password" class="forma-center" id="pass" title="use only letters and numbers" name="pass">
+<br>
+Confirm Pass<sup style="color: red">*</sup>: <br>
+<input type="password" name="RetypePass" class="forma-center" >
+<br>
+E-mail<sup style="color: red">*</sup> :<br>
+ <input type="email" name="email" class="forma-center" ></br>
+Birthday:<br>
+  <select name="Day" title="day">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+					</select>
+		    /<select name="Month" title="month">
+								<option title="January" value="January">Jan</option>
+								<option title="February" value="February">Feb</option>
+								<option title="March" value="March">Mar</option>
+								<option title="April" value="April">Apr</option>
+								<option title="May" value="May">May</option>
+								<option title="June" value="June">Jun</option>
+								<option title="July" value="July">Jul</option>
+								<option title="August" value="August">Aug</option>
+								<option title="September" value="September">Sep</option>
+								<option title="October" value="October">Oct</option>
+								<option title="November" value="November">Nov</option>
+								<option title="December" value="December">Dec</option>						
+					</select>
+			/<select name="Year" title="year">
+								<option>1980</option>
+								<option>1981</option>
+								<option>1982</option>
+								<option>1983</option>
+								<option>1984</option>
+								<option>1985</option>
+								<option>1986</option>
+								<option>1987</option>
+								<option>1988</option>
+								<option>1989</option>
+								<option>1990</option>
+								<option>1991</option>
+								<option>1992</option>
+								<option>1993</option>
+								<option>1994</option>
+								<option>1995</option>
+								<option>1996</option>
+								<option>1997</option>
+								<option>1998</option>
+								<option>1999</option>
+								<option>2000</option>
+								<option>2001</option>
+								<option>2002</option>
+								<option>2003</option>
+								<option>2004</option>
+								<option>2005</option>
+								<option>2006</option>
+								<option>2007</option>
+								<option>2008</option>
+								<option>2009</option>
+								<option>2010</option>
+								<option>2011</option>
+								<option>2012</option>
+								<option>2013</option>
+								<option>2014</option>
+								<option>2015</option>
+								<option>2016</option>
+					</select>
+<br>
+<b>Sex</b>:<br> 
+Male<input type="radio" name="gender1" value="Male" >
+<i style="color: grey">|</i>
+Female<input type="radio" name="gender2" value="Female">
+<br></br>
+	City:<br> <select name="City">
+				<option>Sofia</option>
+				<option>Plovdiv</option>
+				<option>Varna</option>
+				<option>Burgas</option>
+		</select>
+		<br>
+Addres:<br> <input type="text" name="Haddres" class="forma-center" title="home addres">
+<br>
+Phone number<sup style="color: red">*</sup> :<br> <input type="text" name="PhoneNumber" class="forma-center" title="your phone number for connection" maxlength="10" title="max numbers 10"><br>
+Education:<br> <input type="text" name="NameUni" class="forma-center" title="Name of University and Year of education"> <br> <select>
+					<option>2010</option>
+					<option>2011</option>
+					<option>2012</option>
+					<option>2013</option>
+				</select><br></br>
+Additional notes:<br>
+<textarea rows="4" cols="30" name="text" class="forma-center" title="here you can write additional information for you" class="forma-center"></textarea><br></br>
+<input type="checkbox" name="checkbox" value="check" title="I Agree" id="agree" 
+/><i style="color: red">I have read and agree to the Terms and Conditions<br> and Privacy Policy!</i>
+<br></br>
+<input type="submit" name="submit" value="submit" title="confirm your registration"/>
+<input type="reset" name="reset" value="reset" title="clear all information"/>
+<br></br>
+</form>
+</body>	
+</html>

@@ -1,0 +1,30 @@
+body {margin: 0;}
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #808080;
+	}
+ul.topnav li {float: left;}	
+ul.topnav li a {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+	}
+ul.topnav li a:hover {
+	background-color: #308850;
+	}
+ul.topnav li.icon {display: none;}
+.active {
+	background-color: #30C830; 
+	}
+h2,p { text-underline-position: under;
+	text-align: center;
+	font-size: 50px;
+	}
+sup {font-size: 30px}		

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercises 2</title>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#hide-btn').click(function(){
+				$('#h1').hide(1000)
+			});
+			$('#show-btn').click(function(){
+				$('#h1').show(1000)
+			});		
+		});
+	</script>
+</head>
+<body>
+	<h1 id="h1"> Testing JQuery animation ....</h1>
+	<input type="button" id="hide-btn" value="Hide it"/>
+	<input type="button" id="show-btn" value="Show it"/>
+</body>
+</html>

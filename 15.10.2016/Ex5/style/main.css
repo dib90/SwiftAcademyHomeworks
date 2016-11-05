@@ -1,0 +1,15 @@
+html,body {
+		width:90%;height:90%
+		}
+ .forma-center {
+    padding: 5px;
+	text-align: center; 
+	font-family: customfont;
+    margin: 1 auto;
+	}
+h1 {
+	padding-left: 50px
+	}
+textarea {
+	resize: none;
+}
